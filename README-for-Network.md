@@ -1,3 +1,14 @@
+# Network Setup on AWS with CloudFormation
+
+## Overview
+This repository contains a CloudFormation template for setting up a basic network infrastructure on AWS. The template automates the creation of a Virtual Private Cloud (VPC), an Internet Gateway, a public subnet, and necessary route tables. It provides a foundational networking setup for deploying AWS resources securely.
+
+## Prerequisites
+Before deploying the network setup using this CloudFormation template, ensure that you have:
+- An AWS account with appropriate permissions to deploy CloudFormation stacks.
+- Basic understanding of AWS networking concepts, including VPCs, subnets, and route tables.
+
+## Deployment Steps
 To deploy the network setup on AWS using this CloudFormation template, follow these steps:
 
 1. Log in to the AWS Management Console.
@@ -9,7 +20,7 @@ To deploy the network setup on AWS using this CloudFormation template, follow th
 7. Review the configuration and click "Create stack" to initiate the deployment.
 8. Wait for the stack creation process to complete. Once done, you will see the status as "CREATE_COMPLETE".
 
-Accessing the Network Resources
+## Accessing the Network Resources
 After the stack creation is complete, you can access and manage the deployed network resources using the AWS Management Console or AWS CLI. Key resources created by the template include:
 - Virtual Private Cloud (VPC)
 - Internet Gateway (IGW)
@@ -18,7 +29,7 @@ After the stack creation is complete, you can access and manage the deployed net
 
 You can view and manage these resources through the VPC Dashboard and Route Tables section in the AWS Management Console.
 
-Stopping and Cleaning Up
+## Stopping and Cleaning Up
 To stop or delete the deployed network resources, follow these steps:
 
 1. Log in to the AWS Management Console.
